@@ -4,7 +4,6 @@ const getShop = async (slug: ShopSlug): Promise<Shop|undefined> => {
 	if (!slug) return undefined;
 	const fileName = `../data/shops/${slug}.data.json`;
 	const json = await import(/* @vite-ignore */ fileName) as unknown;
-	console.log(slug, fileName, json);
 	if (!json) return undefined;
 	return json as Shop;
 };

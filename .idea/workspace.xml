@@ -4,9 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d49ba5d-906f-4112-9ddf-c21954699893" name="Changes" comment="feat: add TanStack Query">
+    <list default="true" id="8d49ba5d-906f-4112-9ddf-c21954699893" name="Changes" comment="feat: list shops">
+      <change afterPath="$PROJECT_DIR$/src/components/business/shop-details.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/divider.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/error.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/form-input.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/shops/roques-sur-garonne.data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/shops/saint-orens-de-gameville.data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/business/shops-list.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/business/shops-list.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/card.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/card.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/shops/list.data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/shops/list.data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/shop.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/shop.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728210816957</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: list shops">
+      <option name="closed" value="true" />
+      <created>1728212123580</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728212123580</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: add shop data and model" />
     <MESSAGE value="feat: add TanStack Query" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add TanStack Query" />
+    <MESSAGE value="feat: list shops" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: list shops" />
   </component>
 </project>

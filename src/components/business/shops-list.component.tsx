@@ -1,6 +1,11 @@
-import {type FC} from "react";
+import {type FC, useState} from "react";
 import {useQuery} from "@tanstack/react-query";
 import {ShopService} from "@services/shop.service.ts";
+import {ErrorComponent} from "@components/ui/error.component.tsx";
+import type {ShopSlug} from "@models/shop.model.ts";
+import {DividerComponent} from "@components/ui/divider.component.tsx";
+import {ShopDetailsComponent} from "./shop-details.component";
+import {cn} from "@shared/utils.ts";
 
 const ShopsListComponent: FC = () => {
 	const {data: shops, error, isLoading} = useQuery({
@@ -8,18 +13,19 @@ const ShopsListComponent: FC = () => {
 		queryFn: ShopService.getShops
 	});
 
+	const [selectedShop, setSelectedShop] = useState<ShopSlug | null>(null);
+
 	if (error) {
-		return (
-			<div className="mockup-code">
-				<pre className="bg-error text-error-content"><code>Une erreur a été levée lors de la lecture des magasins</code></pre>
-				<pre><code>{error.message}</code></pre>
-			</div>
-		);
+		return (<ErrorComponent error={error}/>);
 	}
+
+	const handleShopClick = (shopSlug: ShopSlug): void => {
+		setSelectedShop(shopSlug);
+	};
 
 	return (
 		<section className="flex flex-col gap-4 justify-center">
-			<h1 className="text-center text-2xl text-bold">Liste des magasins</h1>
+			<h1 className="text-center text-3xl font-bold">Liste des magasins</h1>
 			<div className="overflow-x-auto">
 				{isLoading
 					? <div className="skeleton size-80"/>
@@ -31,7 +37,9 @@ const ShopsListComponent: FC = () => {
 						</thead>
 						<tbody>
 							{(shops?.length) && shops.map(shop => (
-								<tr>
+								<tr className={cn("cursor-pointer", selectedShop === shop && "bg-neutral-200")}
+								    key={shop}
+								    onClick={() => handleShopClick(shop)}>
 									<td>{shop}</td>
 								</tr>
 							))}
@@ -39,6 +47,8 @@ const ShopsListComponent: FC = () => {
 					</table>
 				}
 			</div>
+			<DividerComponent/>
+			{selectedShop && <ShopDetailsComponent shopSlug={selectedShop}/>}
 		</section>
 	);
 };

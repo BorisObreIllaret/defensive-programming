@@ -1,0 +1,18 @@
+{
+  "id": "103101",
+  "name": "Roques-sur-Garonne / Toulouse",
+  "slug": "roques-sur-garonne",
+  "address": {
+    "line1": "3 allée de Fraixinet",
+    "postalCode": "31120",
+    "locality": "Roques-sur-Garonne"
+  },
+  "contact": {
+    "phone": "05 61 72 72 09",
+    "email": "accueil@roques.leclerc"
+  },
+  "openingHours": [
+    "du lundi au jeudi 08:00-20:00",
+    "du vendredi au samedi 08:00-20:30"
+  ]
+}

@@ -10,6 +10,7 @@ export default defineConfig({
 			"@data": "/src/data",
 			"@models": "/src/models",
 			"@services": "/src/services",
+			"@shared": "/src/shared",
 		},
 	},
 });

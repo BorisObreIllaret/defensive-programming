@@ -1,16 +1,15 @@
-import {type FC, type ReactNode} from "react";
+import {type FC, type PropsWithChildren, type ReactNode} from "react";
 
-type CardProps = {
+type CardProps = PropsWithChildren<{
 	header?: ReactNode;
-	body: ReactNode;
-}
+}>;
 
-const Card: FC<CardProps> = ({header, body}) => {
+const Card: FC<CardProps> = ({header, children}) => {
 	return (
 		<div className="card">
 			{header && <div className="card-title">{header}</div>}
 			<div className="card-body">
-				{body}
+				{children}
 			</div>
 		</div>
 	);

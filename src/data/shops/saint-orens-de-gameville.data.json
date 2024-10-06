@@ -1,0 +1,18 @@
+{
+  "id": "123121",
+  "name": "Saint-Orens-de-Gameville",
+  "slug": "saint-orens-de-gameville",
+  "address": {
+    "line1": "5 Allée des Champs Pinsons",
+    "postalCode": "31650",
+    "locality": "Saint Orens de Gameville"
+  },
+  "contact": {
+    "phone": "05 61 17 17 12",
+    "email": "accueil@saint-orens.leclerc"
+  },
+  "openingHours": [
+    "du lundi au vendredi 08:30-20:30",
+    "samedi 08:30-20:30"
+  ]
+}
