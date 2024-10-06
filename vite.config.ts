@@ -6,10 +6,10 @@ export default defineConfig({
 	plugins: [reactPluginSwc()],
 	resolve: {
 		alias: {
-			"@components": "src/components",
-			"@data": "src/data",
-			"@models": "src/models",
-			"@services": "src/services",
+			"@components": "/src/components",
+			"@data": "/src/data",
+			"@models": "/src/models",
+			"@services": "/src/services",
 		},
 	},
 });

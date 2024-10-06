@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d49ba5d-906f-4112-9ddf-c21954699893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/card.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/context.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/shops/list.data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/shops/rouffiac-tolosan.data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/shop.model.ts" afterDir="false" />
+    <list default="true" id="8d49ba5d-906f-4112-9ddf-c21954699893" name="Changes" comment="feat: add shop data and model">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/business/shops-list.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/shop.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/context.md" beforeDir="false" afterPath="$PROJECT_DIR$/specs/context.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/card.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/card.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
@@ -23,9 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="OptimizeOnSaveOptions">
-    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -43,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/dev/react/defensive-programming/specs",
+    "last_opened_file_path": "C:/dev/react/defensive-programming/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,8 +57,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\dev\react\defensive-programming\specs" />
       <recent name="C:\dev\react\defensive-programming\src" />
+      <recent name="C:\dev\react\defensive-programming\specs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\react\defensive-programming\src\components\ui" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -106,9 +107,22 @@
       <updated>1728202515229</updated>
       <workItem from="1728202517183" duration="1699000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: add shop data and model">
+      <option name="closed" value="true" />
+      <created>1728207301874</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728207301874</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add shop data and model" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add shop data and model" />
   </component>
 </project>

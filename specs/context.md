@@ -7,6 +7,7 @@ This project is made with:
 - React 18.3
 - Tailwind CSS 3.4
 - Daisy UI 4.12
+- TanStack Query 5.59
 
 ## File naming
 All files are named using `kebab-case` convention:
@@ -56,3 +57,9 @@ ESLint rules:
 - template literals are accepted;
 - semicolon is mandatory;
 - custom classes (not Tailwind's ones) are allowed.
+
+TypeScript rules:
+- strict;
+- verbatim module syntaxe;
+- no unused local variables;
+- no unused parameters.
