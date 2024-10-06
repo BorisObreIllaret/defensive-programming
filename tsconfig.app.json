@@ -23,34 +23,34 @@
 
     "paths": {
       "@components": [
-        "src/components"
+        "./src/components"
       ],
       "@components/*": [
-        "src/components/*"
+        "./src/components/*"
       ],
       "@data": [
-        "src/data"
+        "./src/data"
       ],
       "@data/*": [
-        "src/data/*"
+        "./src/data/*"
       ],
       "@models": [
-        "src/models"
+        "./src/models"
       ],
       "@models/*": [
-        "src/models/*"
+        "./src/models/*"
       ],
       "@services": [
-        "src/services"
+        "./src/services"
       ],
       "@services/*": [
-        "src/services/*"
+        "./src/services/*"
       ],
       "@shared": [
-        "src/shared"
+        "./src/shared"
       ],
       "@shared/*": [
-        "src/shared/*"
+        "./src/shared/*"
       ]
     },
 

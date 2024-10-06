@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d49ba5d-906f-4112-9ddf-c21954699893" name="Changes" comment="feat: shop details">
-      <change afterPath="$PROJECT_DIR$/src/data/shops/agen.data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/shops/albi.data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/shops/auch.data.json" afterDir="false" />
+    <list default="true" id="8d49ba5d-906f-4112-9ddf-c21954699893" name="Changes" comment="feat: add new shops with data issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/business/shop-details.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/business/shop-details.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/shops/list.data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/shops/list.data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +16,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "BorisObreIllaret"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BorisObreIllaret/defensive-programming.git",
+    "accountId": "bd2c803c-f9d9-4e52-b129-f13706ab085e"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -134,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728219119048</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add new shops with data issues">
+      <option name="closed" value="true" />
+      <created>1728225556477</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728225556477</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +165,7 @@
     <MESSAGE value="feat: add TanStack Query" />
     <MESSAGE value="feat: list shops" />
     <MESSAGE value="feat: shop details" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: shop details" />
+    <MESSAGE value="feat: add new shops with data issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add new shops with data issues" />
   </component>
 </project>
