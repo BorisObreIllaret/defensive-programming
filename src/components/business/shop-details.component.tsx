@@ -52,7 +52,7 @@ const ShopDetailsComponent: FC<Props> = ({shopSlug}) => {
 				</div>
 				<div className="flex flex-col gap-4 w-full max-w-xs">
 					<span className="font-bold border-b">Horaires</span>
-					{shop.openingHours?.length && shop.openingHours.map((hour, index) => (
+					{shop.openingHours.length && shop.openingHours.map((hour, index) => (
 						<FormInputComponent key={index} value={hour}/>
 					))}
 				</div>

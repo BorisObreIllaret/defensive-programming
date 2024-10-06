@@ -1,3 +1,10 @@
 {
-  "shops": ["rouffiac-tolosan","roques-sur-garonne","saint-orens-de-gameville"]
+  "shops": [
+    "rouffiac-tolosan",
+    "roques-sur-garonne",
+    "saint-orens-de-gameville",
+    "auch",
+    "albi",
+    "agen"
+  ]
 }

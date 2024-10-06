@@ -1,0 +1,14 @@
+{
+  "id": "123121",
+  "name": "Agen",
+  "slug": "agen",
+  "address": {
+    "line1": "357 Avenue du Général Leclerc",
+    "postalCode": "47000",
+    "locality": "Agen"
+  },
+  "contact": {
+    "phone": "05.53.96.95.24",
+    "email": "accueil@agen.leclerc"
+  }
+}

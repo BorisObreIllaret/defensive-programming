@@ -1,0 +1,13 @@
+{
+  "id": "033201",
+  "name": "Auch",
+  "slug": "auch",
+  "address": {
+    "line1": "Lieu dit Clarac",
+    "postalCode": "32000",
+    "locality": "Auch"
+  },
+  "openingHours": [
+    "du lundi au samedi 07:30-20:00"
+  ]
+}

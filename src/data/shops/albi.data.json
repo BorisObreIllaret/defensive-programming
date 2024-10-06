@@ -1,0 +1,12 @@
+{
+  "id": "123121",
+  "name": "Albi",
+  "slug": "albi",
+  "contact": {
+    "phone": "05 63 47 34 95",
+    "email": "accueil@albi.leclerc"
+  },
+  "openingHours": [
+    "du lundi au samedi 07:00-20:00"
+  ]
+}
