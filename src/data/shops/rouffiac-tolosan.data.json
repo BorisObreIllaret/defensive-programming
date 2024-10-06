@@ -1,0 +1,19 @@
+{
+  "id": "153101",
+  "name": "Rouffiac / Toulouse",
+  "slug": "rouffiac-tolosan",
+  "address": {
+    "line1": "RN 88 Route d'Albi",
+    "postalCode": "31180",
+    "locality": "Rouffiac-Tolosan"
+  },
+  "contact": {
+    "phone": "05 61 37 89 37",
+    "email": "accueil@rouffiac.leclerc"
+  },
+  "openingHours": [
+    "du lundi au vendredi 08:30-20:00",
+    "samedi 08:30-19:30",
+    "dimanche 08:30-12:30"
+  ]
+}
